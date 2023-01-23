@@ -23,7 +23,7 @@ Prints the following
 
 from ZS import ZeroShotImageIdentification
 
-zsii = ZeroShotImageIdentification(model="RN50")
+zs = ZeroShotImageIdentification(model="RN50")
 
 
 #Predictions
