@@ -1,10 +1,10 @@
-from ZS import ZeroShotImageIdentification
+from ZSII import ZeroShotImageIdentification
 
 #Spanish + Vision Transformer as vision backbone
 
-zs = ZeroShotImageIdentification(lang="es")
+zsii = ZeroShotImageIdentification(lang="es")
 
-preds = zs(image="http://images.cocodataset.org/val2017/000000039769.jpg",
+preds = zsii(image="http://images.cocodataset.org/val2017/000000039769.jpg",
             candidate_labels=["gatita", "perras", "gatas","leonas"],
             hypothesis_template="una imagen de {}",  
             )
@@ -21,13 +21,13 @@ Prints the following
 
 #English + CNN based model as vision backbone
 
-from ZS import ZeroShotImageIdentification
+from ZSII import ZeroShotImageIdentification
 
-zs = ZeroShotImageIdentification(model="RN50")
+zsii = ZeroShotImageIdentification(model="RN50")
 
 
 #Predictions
-preds = zs(image="http://images.cocodataset.org/val2017/000000039769.jpg",
+preds = zsii(image="http://images.cocodataset.org/val2017/000000039769.jpg",
             candidate_labels=["birds", "lions", "cats","dogs"], 
             )
 print(preds)
