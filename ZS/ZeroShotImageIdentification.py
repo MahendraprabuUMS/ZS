@@ -185,3 +185,4 @@ class ZeroShotImageIdentification():
         preds["scores"] = scores
         preds["labels"] = candidate_labels
         return preds
+      
