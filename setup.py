@@ -12,7 +12,7 @@ setuptools.setup(
     author_email="",
     description="Zeroshot Image Identification",
     long_description="Zero Shot Image Identification for fruit image identification",
-    url="https://github.com/MahendraprabuUMS/ZSIdentification.git",
+    url="https://github.com/MahendraprabuUMS/ZS.git",
     packages=setuptools.find_packages(),
     install_requires=[],
     classifiers=[
