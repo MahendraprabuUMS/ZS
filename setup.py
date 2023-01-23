@@ -6,7 +6,7 @@ os.system("pip install sentence-transformers")
 
 
 setuptools.setup(
-    name="ZS",
+    name="ZSII",
     version="1.0",
     author="MP",
     author_email="",
