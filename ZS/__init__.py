@@ -1,1 +1,1 @@
-from ZS.ZeroShotImageIdentification import  ZeroShotImageIdentification
+from ZSII.ZeroShotImageIdentification import  ZeroShotImageIdentification
